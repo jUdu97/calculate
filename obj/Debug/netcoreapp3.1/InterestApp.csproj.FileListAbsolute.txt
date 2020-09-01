@@ -1,0 +1,13 @@
+C:\Users\djcle\OneDrive\Desktop\Coding_Personal\InterestApp\bin\Debug\netcoreapp3.1\InterestApp.exe
+C:\Users\djcle\OneDrive\Desktop\Coding_Personal\InterestApp\bin\Debug\netcoreapp3.1\InterestApp.deps.json
+C:\Users\djcle\OneDrive\Desktop\Coding_Personal\InterestApp\bin\Debug\netcoreapp3.1\InterestApp.runtimeconfig.json
+C:\Users\djcle\OneDrive\Desktop\Coding_Personal\InterestApp\bin\Debug\netcoreapp3.1\InterestApp.runtimeconfig.dev.json
+C:\Users\djcle\OneDrive\Desktop\Coding_Personal\InterestApp\bin\Debug\netcoreapp3.1\InterestApp.dll
+C:\Users\djcle\OneDrive\Desktop\Coding_Personal\InterestApp\bin\Debug\netcoreapp3.1\InterestApp.pdb
+C:\Users\djcle\OneDrive\Desktop\Coding_Personal\InterestApp\obj\Debug\netcoreapp3.1\InterestApp.csprojAssemblyReference.cache
+C:\Users\djcle\OneDrive\Desktop\Coding_Personal\InterestApp\obj\Debug\netcoreapp3.1\InterestApp.AssemblyInfoInputs.cache
+C:\Users\djcle\OneDrive\Desktop\Coding_Personal\InterestApp\obj\Debug\netcoreapp3.1\InterestApp.AssemblyInfo.cs
+C:\Users\djcle\OneDrive\Desktop\Coding_Personal\InterestApp\obj\Debug\netcoreapp3.1\InterestApp.csproj.CoreCompileInputs.cache
+C:\Users\djcle\OneDrive\Desktop\Coding_Personal\InterestApp\obj\Debug\netcoreapp3.1\InterestApp.dll
+C:\Users\djcle\OneDrive\Desktop\Coding_Personal\InterestApp\obj\Debug\netcoreapp3.1\InterestApp.pdb
+C:\Users\djcle\OneDrive\Desktop\Coding_Personal\InterestApp\obj\Debug\netcoreapp3.1\InterestApp.genruntimeconfig.cache
