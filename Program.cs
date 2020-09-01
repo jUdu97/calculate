@@ -7,7 +7,8 @@ namespace Calculation
         public static void InterestRate()
         {
             //class method that calculates Continous Compound Interest Rate
-            double e = 2.71828;
+
+            double e = 2.71828; //set e equal to constant value
 
             //ask user for initial payment amount
             Console.WriteLine("How much is your initial payment amount? ");
@@ -33,16 +34,16 @@ namespace Calculation
             
             //multiply principal amount by e^(r * t)
             double cashAmount = P1 * exponent;
-            Console.WriteLine("Total Amount: ");
-            Console.WriteLine(cashAmount);
+            Console.WriteLine("Total Amount: {0:C2}", cashAmount);
 
             return;
         }
     }
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
+            Calculation.InterestRate();
 
         }
     }
