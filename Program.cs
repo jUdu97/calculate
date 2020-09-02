@@ -6,7 +6,7 @@ namespace Calculation
     {
         public static void InterestRate()
         {
-            ///class method that calculates Continous Compound Interest Rate
+            ///class method that calculates Continuous Compound Interest Rate
 
             double e = 2.71828; //set e equal to constant value
 
