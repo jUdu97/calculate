@@ -34,7 +34,50 @@ namespace Calculation
             
             //multiply principal amount by e^(r * t)
             double cashAmount = P1 * exponent;
-            Console.WriteLine("Total Amount: {0:C2}", cashAmount);
+            Console.WriteLine("Total Continuous Amount: {0:C2}", cashAmount);
+
+            return; //return none
+        }
+        public static void CompoundInterestRate()
+        {
+            ///class method that calculates Compound Interest Rate
+
+            //ask user for initial payment amount
+            Console.WriteLine("Enter initial payment: $");
+            string initAmount = Console.ReadLine();
+            int initAmount1 = Convert.ToInt32(initAmount);
+
+            //ask user for rate as %
+            Console.WriteLine("Enter rate (%): ");
+            string rate= Console.ReadLine();
+            decimal rate1 = Convert.ToDecimal(rate);
+            decimal rate2 = ((decimal)rate1) / 100;
+
+            //ask user for number of installments paid
+            Console.WriteLine("Enter numbers of times paid: ");
+            string n1 = Console.ReadLine();
+            int n2 = Convert.ToInt32(n1);
+
+            //ask user how long their payment plan is
+            Console.WriteLine("Enter payment length in years: ");
+            string timeYrs = Console.ReadLine();
+            int timeYrs1 = Convert.ToInt32(timeYrs);
+
+            //multiply number of payments by plan length 
+            double multiplyNT = n2 * timeYrs1;
+
+            //divide rate by number of payments
+            double divRN = ((double)rate2) / n2;
+
+            //add 1 to r/n
+            double plusOne = 1 + divRN;
+
+            //raise (1 + r/n) to the power of n * t
+            double basePwr = Math.Pow(plusOne, multiplyNT);
+
+            //multiply initial amount by (1 + r/n)^(n * t) 
+            double compAmount = initAmount1 * basePwr;
+            Console.WriteLine("Total Compound Amount: {0:C2}", compAmount);
 
             return; //return none
         }
@@ -43,8 +86,8 @@ namespace Calculation
     {
         static void Main()
         {
-            Calculation.InterestRate();
-
+            //Calculation.InterestRate();
+            Calculation.CompoundInterestRate();
         }
     }
 
